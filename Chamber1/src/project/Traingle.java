@@ -30,7 +30,6 @@ public class Traingle {
 	}
 
 	public String typeOfTriangle() {
-
 		if (bool) {
 
 			if (edge1 == edge2 && edge2 == edge3) {
