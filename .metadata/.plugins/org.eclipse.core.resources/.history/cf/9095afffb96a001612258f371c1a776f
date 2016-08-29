@@ -1,0 +1,13 @@
+package zipper;
+
+import java.io.PushbackInputStream;
+
+public class Same {
+	public static void main(String[] args){
+long lat;
+long degree=(long)lat;
+float degree1=(long)(lat-degree);
+System.out.println("enter the value of lat:");
+
+	}
+}

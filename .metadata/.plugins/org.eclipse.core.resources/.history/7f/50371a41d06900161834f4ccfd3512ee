@@ -1,0 +1,19 @@
+package com.junit;
+
+import static org.junit.Assert.*;
+
+import org.junit.Test;
+
+import project.Counter;
+
+public class CounterTest {
+
+	@Test
+	public void test() {
+		Counter c=new Counter();
+		int actual=c.returnCounter(6);
+		assertEquals(7, actual);
+		
+	}
+
+}

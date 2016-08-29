@@ -1,0 +1,31 @@
+package project;
+
+import java.util.Scanner;
+
+public class Counter {
+	public static void main(String args[]) {
+		int lower, upper, counter, result;
+		System.out.println("enter the value of lower:");
+		System.out.println("enter the value of upper:");
+		System.out.println("enter the counter value:");
+		Scanner sc=new Scanner(System.in);
+		Scanner sc1=new Scanner(System.in);
+		Scanner sc2=new Scanner(System.in);
+		counter=sc.nextInt();
+		upper=sc1.nextInt();
+		lower=sc2.nextInt();	
+		if (counter>=lower && counter<=upper) {
+			if (counter == 0) {
+				result = lower;
+				System.out.println(result);
+			} 
+			else {
+				result = counter + 1;
+				System.out.println(result);
+			}
+		} else {
+			System.out.println("not in range");
+		}
+
+	}
+}

@@ -1,20 +1,26 @@
 package project;
 
 public class binary {
-	public void printBinaryFormat(int number) {
-		int binary[] = new int[25];
-		int index = 0;
-		while (number > 0) {
-			binary[index++] = number % 2;
-			number = number / 2;
+	public int getDecimalFromBinary(int binary) {
+
+		int decimal = 0;
+		int power = 0;
+		while (true) {
+			if (binary == 0) {
+				break;
+			} else {
+				int tmp = binary % 10;
+				decimal += tmp * Math.pow(2, power);
+				binary = binary / 10;
+				power++;
+			}
 		}
-		for (int i = index - 1; i >= 0; i--) {
-			System.out.print(binary[i]);
-		}
+		return decimal;
 	}
 
 	public static void main(String a[]) {
-		binary dtb = new binary();
-		dtb.printBinaryFormat(9);
+		binary bd = new binary();
+		System.out.println("result ===> " + bd.getDecimalFromBinary(101));
+
 	}
 }

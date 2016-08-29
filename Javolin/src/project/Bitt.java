@@ -2,7 +2,7 @@ package project;
 
 import java.util.Scanner;
 
-class Bitt {
+public class Bitt {
 	public String returnbit(int num){
 		int rem;
 		String str2 = "";

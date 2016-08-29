@@ -8,10 +8,11 @@ public class squareroot {
 		Scanner in = new Scanner(System.in);
 		System.out.printf("Enter i Value:  ");
 		i = in.nextInt();
-		findSquareRoot(i);
+		squareroot s=new squareroot();
+		s.findSquareRoot(i);
 	}
 
-	public static void findSquareRoot(double number) {
+	public int findSquareRoot(double number) {
 		boolean isPositiveNumber = true;
 		double g1;
 		double squareRoot = number / 2;
@@ -26,5 +27,6 @@ public class squareroot {
 		} else {
 			System.out.println("+" + squareRoot + " i");
 		}
+		return (int) number;
 	}
 }

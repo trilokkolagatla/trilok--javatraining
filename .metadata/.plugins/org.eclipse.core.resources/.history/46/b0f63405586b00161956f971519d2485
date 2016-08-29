@@ -1,0 +1,16 @@
+package zipper;
+
+import java.util.*;
+
+public class zippercode {
+	public String Alphabet = "abcdefghijklmnopqrstuvwxyz";
+	public String Number = "0123456789";
+	public int alphabet = Alphabet.length();
+	public int number = Number.length();
+
+	private Map<String, Address> zipperAddressMap = new HashMap<>();
+
+	Random rd = new Random();
+	int i = rd.nextInt();
+}
+

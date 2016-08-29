@@ -1,0 +1,15 @@
+package com.junit;
+
+import static org.junit.Assert.*;
+
+import org.junit.Test;
+
+public class binaryTest {
+
+	@Test
+	public void postiveTest() {
+		binary b=new binary();
+		int actual =b.
+	}
+
+}

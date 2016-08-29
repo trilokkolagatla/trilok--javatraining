@@ -1,0 +1,10 @@
+package zipper;
+
+import java.io.PushbackInputStream;
+
+public class Same {
+	Public  name() {
+		
+	}
+
+}

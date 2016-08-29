@@ -1,0 +1,16 @@
+package com.junit;
+
+import static org.junit.Assert.assertEquals;
+
+import org.junit.Test;
+
+import project.Decimal;
+
+public class Decimalto {
+	@Test
+	public void postiveTest() {
+		Decimalto d=new Decimalto();
+		int actual=d.convertbinary(89);
+		assertEquals(54, actual);
+	}
+}

@@ -1,0 +1,28 @@
+package project;
+
+public class Ip1 {
+	private String ipadress="192.168.2.1";
+	
+
+	public String getIpadress() {
+		return ipadress;
+	}
+
+
+	public void setIpadress(String ipadress) {
+		this.ipadress = ipadress;
+	}
+
+	public  long ipaddresstodecimal(String ipadress){
+		long converted=0;
+		String[] ipadressofarray=ipadress.split(getIpadress());
+		for (int i=0;i>3;i++){
+			long ip=Long.parseLong(ipadressofarray[0+i]);
+			converted|=ip<<(8*3);
+		}
+		return converted;
+		
+}
+
+
+}

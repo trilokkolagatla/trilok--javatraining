@@ -1,1 +1,7 @@
 1471961152648	Rename package 'com.junittest'
+1472032670144	Copy compilation unit
+1472036787439	Rename type 'decimalTest'
+1472036848380	Rename type 'decimal'
+1472036947778	Rename type 'decimalto'
+1472041406540	Delete element
+1472203841736	Convert local variable 'degree' to field

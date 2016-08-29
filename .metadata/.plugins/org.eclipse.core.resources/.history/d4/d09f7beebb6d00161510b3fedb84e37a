@@ -1,0 +1,25 @@
+package project;
+import java.lang.*;
+
+public class Ip1 {
+
+	private static String ipadress = "192.168.2.1";
+
+	public long ipaddresstodecimal(String ipadress) {
+		long converted = 0;
+		String[] ipadressofarray = ipadress.split(".");
+		for (int i =3; i>=0; i--) {
+			long ip = Long.parseLong(ipadressofarray[3-i]);
+			converted |= ip << (8 * i);
+			System.out.println(+converted);
+		}
+		return converted;
+
+	}
+
+	public static void main(String[] args) {
+		Ip1 get = new Ip1();
+		get.ipaddresstodecimal(ipadress);
+	}
+
+}
