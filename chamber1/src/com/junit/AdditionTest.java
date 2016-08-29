@@ -15,5 +15,12 @@ public class AdditionTest {
 		int num=add.returnSquare(5);
 		assertEquals(55,num);
 	}
+	@Test
+	public void negativeTest() {
+		
+		Addition add=new Addition();
+		int num=add.returnSquare(-5);
+		assertEquals(55,num);
+	}
 
 }

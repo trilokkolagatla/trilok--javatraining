@@ -5,7 +5,7 @@ import java.math.*;
 import java.lang.*;
 import java.io.*;
 
-class Lat {
+class Distance {
 	public static void main(String[] args) throws Exception {
 		System.out.println(distance(32.9697, -96.80322, 29.46786, -98.53506, "M") + " Miles\n");
 		System.out.println(distance(32.9697, -96.80322, 29.46786, -98.53506, "K") + " Kilometers\n");

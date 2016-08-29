@@ -25,12 +25,13 @@ public class Traingle {
 		Scanner scan2 = new Scanner(System.in);
 		z = scan2.nextInt();
 		Traingle triangle = new Traingle(x, y, z);
-		String triangleType = triangle.typeOfTriangle();
+		int triangleType = triangle.typeOfTriangle();
 
 	}
 
-	public String typeOfTriangle() {
-		if (bool) {
+	public int typeOfTriangle() {
+		int bool=0;
+		if () {
 
 			if (edge1 == edge2 && edge2 == edge3) {
 
@@ -51,6 +52,7 @@ public class Traingle {
 			System.out.println("Can't be formed triangle");
 
 		}
+		return 0;
 
 	}
 

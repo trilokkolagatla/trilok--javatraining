@@ -1,6 +1,5 @@
 package zipper;
 
-import java.io.PushbackInputStream;
 import java.util.Scanner;
 
 public class Same {
@@ -19,7 +18,6 @@ return new Double((Math.toDegrees(Math.acos(theDistance))) *
 public static void main(String[] args){
 	Same s=new Same();
 	Same.calcDistance(53, 55, 60, 65);
-	System.out.println("the value of new");
 	
 }
 }

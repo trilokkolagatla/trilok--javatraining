@@ -9,8 +9,10 @@ public class swaptestpass {
 	@Test
 	public void positiveTest() {
 		swap s = new swap();
-		int actualValue = s.returnswap(3,4);
+		int[] swap={3,4};
+		int actualValue = swap.length;
 		assertEquals(3, actualValue);
+		assertEquals(4,actualValue);
 	}
 
 }
