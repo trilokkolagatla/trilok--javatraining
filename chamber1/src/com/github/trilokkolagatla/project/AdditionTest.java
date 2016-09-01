@@ -20,7 +20,11 @@ public class AdditionTest {
 		
 		Addition add=new Addition();
 		int num=add.returnSquare(-5);
-		assertEquals(55,num);
+		assertEquals(0,num);
+	}
+	private void numass(int i, int num) {
+		// TODO Auto-generated method stub
+		
 	}
 
 }
