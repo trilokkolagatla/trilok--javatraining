@@ -67,8 +67,31 @@ These are the factors or the requirements based on which j-unit testing is done 
 	Zipper Code:
 	
 	This is alphanumeric code based on which address is being uniquely identified with the help of geolocation (latitude and longtitude).
-	Here,we generate zipper code based on random number generation and link that with the help of address taken from the user regarding  
+	Here,we generate zipper code based on random number generation and link that with the help of address taken from the user regarding the residence details.We can also locate the Gps easily with the help of zipper code.This helps us to introduce the concept of hassle-free code,where we can improve the type of letters in the code to be visible properly to the user without any ambiguity in the letters.
+	Eg:just like our pin code
+	
+Encoding and Decoding:	
+
+The process of converting bytes to characters-encoding
+
+The process of converting characters to bytes-decoding
+
+There are many encoding schemas like UTF-8,UTF-16,UTF-32 where UTF stands for "unicode transformation format".Based on the no of bits the encoding scheme requires to divide users input the encoding scheme is developed based on the representation of bits.Now in the present world the transformation of any language into bits takes place on the basis of unicode instead of ASCII(now dead) as it is used for only for english language. 
+I also come across terms like codec,repeaters,modulator etc
+These techniques are very useful in Real-Time usage.
+
+Now let us talk about problem domain object and solution domain object thats defined as
+Problem-Domain:Objectives,Goals,Needs
+
+Solution -Domain:Define the solution.
+
+
 	
 	
 	
 	
+	
+	
+	
+	
+
