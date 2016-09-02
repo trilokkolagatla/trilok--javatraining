@@ -81,6 +81,7 @@ I also come across terms like codec,repeaters,modulator etc
 These techniques are very useful in Real-Time usage.
 
 Now let us talk about problem domain object and solution domain object thats defined as
+
 Problem-Domain:Objectives,Goals,Needs
 
 Solution -Domain:Define the solution.
