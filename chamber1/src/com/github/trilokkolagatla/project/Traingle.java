@@ -31,7 +31,7 @@ public class Traingle {
 
 	public int typeOfTriangle() {
 		int bool=0;
-		if () {
+		if (edge1>0) {
 
 			if (edge1 == edge2 && edge2 == edge3) {
 
