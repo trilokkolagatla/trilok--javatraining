@@ -4,23 +4,23 @@ import static org.junit.Assert.*;
 
 import org.junit.Test;
 
-import com.github.trilokkolagatla.project.Decimal;
+import com.github.trilokkolagatla.project.ReverseNumber;
 
 import jdk.internal.org.objectweb.asm.tree.TryCatchBlockNode;
 
-public class DecimalTest {
+public class ReverseNumberTest {
 	
 //i-inverse relation and postive test are same
 	@Test
 	public void postiveTest() {
-		Decimal d = new Decimal();
+		ReverseNumber d = new ReverseNumber();
 		int actual = d.returnreverse(45);
 		assertEquals(54, actual);
 	}
 //b-boundary conditions
 	@Test 
 	public void zerovalueTest() {
-		Decimal d = new Decimal();
+		ReverseNumber d = new ReverseNumber();
 		try{
 			d.returnreverse(0);
 		}catch(IllegalArgumentException e){
@@ -32,15 +32,16 @@ public class DecimalTest {
 	@Test
 	public void NegativeTest() {
 		try {
-			Decimal d = new Decimal();
+			ReverseNumber d = new ReverseNumber();
 			d.returnreverse(-56);
 		} catch (IllegalArgumentException e) {
 			fail("enter natural numbers");
 		}
 	}
+	//check by other means
 	@Test
 	public void inverseTest() {
-		Decimal d = new Decimal();
+		ReverseNumber d = new ReverseNumber();
 		int actual = d.rmethod(89);
 		assertEquals(89, actual);
 	}

@@ -3,13 +3,13 @@ package com.github.trilokkolagatla.project;
 import java.util.Scanner;
 import java.io.*;
 
-public class Decimal {
+public class ReverseNumber {
 
 	public static int n;
 	public static int j;
 
 	public void get(int n) {
-		Decimal.n = n;
+		ReverseNumber.n = n;
 	}
 
 	public int set(int n) {
@@ -17,7 +17,7 @@ public class Decimal {
 	}
 
 	public void put(int j) {
-		Decimal.j = j;
+		ReverseNumber.j = j;
 	}
 
 	public int let(int j) {
@@ -56,7 +56,7 @@ public class Decimal {
 		if (n <= 0) {
 			throw new IllegalArgumentException();
 		}
-		Decimal d = new Decimal();
+		ReverseNumber d = new ReverseNumber();
 		d.returnreverse(n);
 		System.out.println("\nenter the value of j:");
 		Scanner sc = new Scanner(System.in);
